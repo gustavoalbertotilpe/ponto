@@ -132,15 +132,12 @@ const Home = () => {
                     <Menu/>
                     <L.AreaRight>
                         <L.Content> 
-                            <div>
-                                <h1>Olá, {name}</h1>
-                            </div>
-                            <div>
+                            <div className='w-full flex justify-end'>
                                 <button
                                   onClick={handleClick}
                                   className='bg-purple-700 p-4 text-white rounded-lg hover:bg-violet-600'
                                 >
-                                    <div className='flex align-center gap-2'>
+                                    <div className='flex items-center gap-2'>
                                         <FingerprintIcon/>
                                         Registrar ponto
                                     </div>
@@ -168,7 +165,7 @@ const Home = () => {
                 <L.AreaRight>
                     <L.Content>
                         <div className="flex">
-                            <div className='flex align-center gap-3'>
+                            <div className='flex items-center gap-3'>
                                 <GroupIcon/>
                                 <p>Usuários</p>
                             </div>
